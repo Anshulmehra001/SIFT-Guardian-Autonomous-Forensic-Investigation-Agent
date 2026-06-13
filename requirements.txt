@@ -1,0 +1,26 @@
+# SIFT Guardian - Dependencies
+# Core requirements for production use
+
+# AI Providers
+google-generativeai>=0.7.0    # Google Gemini (FREE, recommended)
+
+# Core Framework
+pydantic>=2.7.0               # Data validation
+pyyaml>=6.0.1                 # Configuration
+click>=8.1.7                  # CLI interface
+rich>=13.7.1                  # Terminal formatting
+
+# Utilities
+python-json-logger>=2.0.7     # Structured logging
+aiofiles>=23.2.1              # Async file operations
+cryptography>=42.0.7          # SHA-256 hashing
+
+# Optional: Additional AI Providers
+# anthropic>=0.25.0           # Claude (optional)
+# groq>=0.9.0                 # Groq (FREE alternative)  
+# ollama>=0.3.0               # Local LLM (optional)
+
+# Optional: Advanced Forensics (install if needed)
+# pefile>=2023.2.7            # PE file analysis
+# python-registry>=1.3.1      # Registry hive analysis
+# yara-python>=4.3.1          # YARA malware scanning
